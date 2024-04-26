@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/CSS" href="./assets/styles/form.css">
+  <title>My Personal Blog</title>
+</head>
+<body>
+<header>
+  <h1 id="blog-header">Blog Posts:</h1>
+  <p>How to fail your JavaScript Course because you struggle to learn JavaScript</p>
+</header>
+<main>
+  <article>
+    <form>
+    <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Username Here">
+      <br>
+    <label for="blog-title">Blogs Title:</label>
+      <input type="text" id="blog-title" placeholder="Blog Title Here">
+      <br>
+    <label for="blog-content">Blogs Body:</label>
+      <input type="text" id="blog-content" placeholder="Blog Content Here">
+    </form>
+    <div id="preview-handler">
+        <p id="blog-preview"></p>
+    </div>
+    <div id="submit-div">
+    <input id="submit-button" type="submit" value="submit">
+    </div>
+  </article>
+  <aside id="blog-links">
+    <h3>Blog Post Listings</h3>
+  </aside>
+  <footer>
+    <nav id="foot-nav">
+
+    </nav>
+      <label class="switch">
+      <input type="checkbox" id="modeToggle">
+      <span class="slider round"><p id="dark-light"></p></span>
+    </label>
+    <h1 id="mode-title">☀️/🌘</h1>
+</footer>
+</main>
+<script src="./assets/js/form.js"></script>
+</body>
+</html>
